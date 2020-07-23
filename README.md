@@ -1,6 +1,17 @@
-Hi Everyone
+# File Separator
+it's a Python program to separate different type of files by its type name or Extention.
+Python's modules: os and shutil
 
-This is my first python mini-project.I love to do anything in python;
-Now let's talk about this project in this project Python's OS module has been used. To see how's it work simply copy code and run it your own python code editor and In input enter file address which will contains very different types of files like Document file, Audio file, Video_file, Images etc. then Hit Enter Now you can see there all files are separated;
+## Installation
 
-Thank you :)
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install modules.
+
+```bash
+pip install os
+```
+## Usage
+
+```python
+import os, shutil
+
+os.path.join(User_folder_path, folder_name) # return the path of 'folder_name'
